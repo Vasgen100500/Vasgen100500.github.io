@@ -1,0 +1,31 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.block-main1{
+	float: left;
+	width: 30%;
+}
+.block-main2{
+	float: left;
+	width: 40%;
+	}
+.block{
+	height:10%;
+	border-bottom: 2px solid;
+	border-right: 2px solid;
+}
+.block-main3{
+	float: left;
+	width: 60%;
+}
+.block-main4{
+	float: left;
+	width: 40%;
+}
+.block-main5 {
+	float: left;
+	width: 50%;
+}
+
