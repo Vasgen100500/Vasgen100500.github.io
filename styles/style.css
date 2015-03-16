@@ -3,14 +3,12 @@
     padding: 0; /* traratata */
 }
 body{
-    height: 100%;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif; /* Шрифт*/
     font-size: 16px;
     }
 .header{
     width: 100%;
     height: 45px;
-    margin-bottom: 0px;
     padding: 13px 0;
 }
 .left, .right {
@@ -19,17 +17,20 @@ body{
     padding: 0 15px;
 }
 .left{
-    width: 250px;
+    width: 180px;
     height: 40px;
     padding-right: 0px;
-    margin-left: 100px;
+    margin-left: 5px;
+    padding-left: 10px;
 }
 .logo{
     height: 40px;
     cursor: pointer;
 }
 .logo img{
+    width: 200px;
     height: 60px;
+    margin-left: 0px;
 }
 .cent{
     width: 300px;
@@ -50,7 +51,7 @@ body{
     height: 31px;
     box-shadow: inset 0 0 5px rgba(0,0,0,0.35);
     float: left;
-    margin: 4px auto;
+    margin: 5px auto;
 }
 input[type="search"]{
     border: none;
@@ -88,10 +89,11 @@ input[type="submit"]{
 .right .button a{
     vertical-align: middle;
 }
-.body{
-    color: #191970;
+.little-body{
+    display: inline-block;
     height: 100%;
     width: 100%;
+    background-color: #191970;
 }
 .cont-left{
     height: 100%;
@@ -122,4 +124,19 @@ input[type="submit"]{
     cursor: pointer;
     display: block;
 }
-
+.content-form{
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+}
+.content-form a{
+    font-family: "PT Sans";
+    font-weight: 700;
+    font-size: 100%;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+.content-form a:hover{
+    text-decoration: none;
+}
