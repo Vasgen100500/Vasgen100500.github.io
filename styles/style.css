@@ -93,11 +93,16 @@ input[type="submit"]{
     display: inline-block;
     height: 100%;
     width: 100%;
-    background-color: #191970;
+    background-image: url("../img/batt.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat ;
+    cursor: pointer;
 }
 .cont-left{
+    width: 15%;
     height: 100%;
     float: left;
+    margin-top: 250px;
 }
 .cont-left img{
     decoration: none;
@@ -108,12 +113,11 @@ input[type="submit"]{
     cursor: pointer;
     display: block;
 }
-.cont{
-    color: #191970;
-}
 .cont-right{
+    width: 15%;
     height: 100%;
     float: right;
+    margin-top: 250px;
 }
 .cont-right img{
     box-decoration: none;
@@ -124,10 +128,23 @@ input[type="submit"]{
     cursor: pointer;
     display: block;
 }
+.cont-left img:hover{
+    width: 160px;
+    height: 210px;
+}
+.cont-right img:hover{
+    width: 160px;
+    height: 210px;
+}
 .content-form{
+    height: 100%;
+    width: 70%;
     position: relative;
     text-align: center;
     vertical-align: bottom;
+    margin: 0px auto;
+    display: inline-block;
+    margin-top: 250px;
 }
 .content-form a{
     font-family: "PT Sans";
@@ -139,4 +156,6 @@ input[type="submit"]{
 }
 .content-form a:hover{
     text-decoration: none;
+}
+.body{
 }
