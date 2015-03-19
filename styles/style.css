@@ -89,20 +89,10 @@ input[type="submit"]{
 .right .button a{
     vertical-align: middle;
 }
-.little-body{
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    background-image: url("../img/batt.jpg");
-    background-attachment: scroll;
-    background-repeat: no-repeat ;
-    cursor: pointer;
-}
 .cont-left{
     width: 15%;
     height: 100%;
     float: left;
-    margin-top: 250px;
 }
 .cont-left img{
     decoration: none;
@@ -117,7 +107,6 @@ input[type="submit"]{
     width: 15%;
     height: 100%;
     float: right;
-    margin-top: 250px;
 }
 .cont-right img{
     box-decoration: none;
@@ -136,26 +125,39 @@ input[type="submit"]{
     width: 160px;
     height: 210px;
 }
-.content-form{
-    height: 100%;
+.frm{
+    height: 825px;
     width: 70%;
-    position: relative;
+}
+.content-form{
     text-align: center;
     vertical-align: bottom;
     margin: 0px auto;
     display: inline-block;
-    margin-top: 250px;
+    background-color: #fff;
+    border: 1px solid rgba(1,1,1,0.4);
 }
 .content-form a{
     font-family: "PT Sans";
     font-weight: 700;
     font-size: 100%;
     text-transform: uppercase;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 .content-form a:hover{
     text-decoration: none;
 }
+.little-body{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/batt.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat ;
+    cursor: pointer;
+}
 .body{
+    margin-top: 250px;
+    height: 100%;
 }
