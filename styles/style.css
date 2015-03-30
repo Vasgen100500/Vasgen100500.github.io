@@ -138,7 +138,7 @@ input[type="submit"]{
     margin: 0px auto;
     display: inline-block;
     background-color: #fff;
-    border: 1px solid rgba(1,1,1,0.4);
+    border: 1px solid #0000CD;
 }
 .content-form a{
     font-family: "PT Sans";
@@ -167,8 +167,8 @@ input[type="submit"]{
 .b1{
     height: 490px;
     width: 600px;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border-right: 1px solid #0000CD;
+    border-bottom: 1px solid #0000CD;
     float: left;
 }
 .b1 img{
@@ -177,31 +177,49 @@ input[type="submit"]{
 }
 .b2{
     height: 275px;
-    width: 325px;
-    border-bottom: 1px solid black;
+    width: 563px;
+    border-bottom: 1px solid #0000CD;
     float: left;
 }
 .b2 img{
     height: 275px;
-    width: 325px;
+    width: 564px;
 }
 .b3{
     height: 215px;
     width: 600px;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
+    border-bottom: 1px solid #0000CD;
+    border-right: 1px solid #0000CD;
     float: left;
+}
+.b3 img{
+    height: 215px;
+    width: 600px;
 }
 .b4{
     height: 215px;
-    width: 325px;
-    border-bottom: 1px solid black;
+    width: 563px;
+    border-bottom: 1px solid  #0000CD;
     float: left;
+}
+.b4 img{
+    height: 215px;
+    width: 564px;
 }
 .b5{
     height: 119px;
     width: 100%;
+    border-bottom: 1px solid  #0000CD;
     float: left;
 }
-
+.b5 img{
+    height: 119px;
+    width: 100%;
+}
+.c1{
+    height: 50%;
+}
+.c2{
+    height: 50%;
+}
 
