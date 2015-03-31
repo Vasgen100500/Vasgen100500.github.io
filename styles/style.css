@@ -164,62 +164,45 @@ input[type="submit"]{
     margin-top: 250px;
     height: 100%;
 }
+.c1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.c2{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
 .b1{
+    width: 660px;
     height: 490px;
-    width: 600px;
-    border-right: 1px solid #0000CD;
-    border-bottom: 1px solid #0000CD;
     float: left;
 }
 .b1 img{
+    width: 660px;
     height: 490px;
-    width: 600px;
 }
 .b2{
-    height: 275px;
-    width: 563px;
-    border-bottom: 1px solid #0000CD;
+    width: 330px;
+    height: 245px;
     float: left;
 }
 .b2 img{
-    height: 275px;
-    width: 564px;
+    width: 330px;
+    height: 335px;
+    float: left;
 }
 .b3{
-    height: 215px;
-    width: 600px;
-    border-bottom: 1px solid #0000CD;
-    border-right: 1px solid #0000CD;
-    float: left;
+    width: 252px;
+    height: 245px;
+    float: right;
 }
 .b3 img{
-    height: 215px;
-    width: 600px;
+    width: 330px;
+    height: 335px;
 }
-.b4{
-    height: 215px;
-    width: 563px;
-    border-bottom: 1px solid  #0000CD;
-    float: left;
-}
-.b4 img{
-    height: 215px;
-    width: 564px;
-}
-.b5{
-    height: 119px;
-    width: 100%;
-    border-bottom: 1px solid  #0000CD;
-    float: left;
-}
-.b5 img{
-    height: 119px;
-    width: 100%;
-}
-.c1{
-    height: 50%;
-}
-.c2{
-    height: 50%;
-}
+
+
+
 
