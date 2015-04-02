@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0; /* traratata */
+    padding: 0;
 }
 body{
     font-family: 'PT Sans', sans-serif; /* Шрифт*/
@@ -91,7 +91,7 @@ input[type="submit"]{
 }
 .cont-left{
     width: 15%;
-    height: 100%;
+    height: 830px;
     float: left;
 }
 .cont-left img{
@@ -105,7 +105,7 @@ input[type="submit"]{
 }
 .cont-right{
     width: 15%;
-    height: 100%;
+    height: 830px;
     float: right;
 }
 .cont-right img{
@@ -165,14 +165,14 @@ input[type="submit"]{
     height: 100%;
 }
 .c1{
-    width: 50%;
+    width: 582px;
     height: 100%;
     float: left;
 }
 .c2{
-    width: 50%;
+    width: 505px;
     height: 100%;
-    float: left;
+    float: right;
 }
 .b1{
     width: 660px;
@@ -201,6 +201,63 @@ input[type="submit"]{
 .b3 img{
     width: 330px;
     height: 335px;
+}
+.b4{
+    height: 245px;
+    width: 505px;
+}
+.b4 img{
+    height: 245px;
+    width: 505px;
+}
+.b5{
+    height: 580px;
+    width: 505px;
+}
+.b5 img{
+    height: 580px;
+    width: 505px;
+}
+.bot{
+    border: 1px solid black;
+    width: 950px;
+    height: 150px;
+    margin: 5px auto;
+    text-align: center;
+}
+.bot img{
+    width: 950px;
+    height: 150px;
+}
+.mid{
+    background-image: url("../img/batt.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat ;
+    cursor: pointer;
+}
+.ul{
+    border-top: 1px solid #D3D3D3;
+    background-color: white;
+    width: 1165px;
+    height: 334px;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-right: 249px;
+    margin-bottom: 15px;
+    margin-left: 249px;
+}
+.ul p{
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'PT Sans';
+    letter-spacing: 0px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
 }
 
 
