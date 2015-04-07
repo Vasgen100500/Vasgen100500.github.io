@@ -95,7 +95,6 @@ input[type="submit"]{
     float: left;
 }
 .cont-left img{
-    decoration: none;
     border: 1px solid #00FA9A;
     width: 150px;
     height: 200px;
@@ -109,7 +108,6 @@ input[type="submit"]{
     float: right;
 }
 .cont-right img{
-    box-decoration: none;
     border: 1px solid #00FA9A;
     width: 150px;
     height: 200px;
@@ -126,7 +124,7 @@ input[type="submit"]{
     height: 210px;
 }
 .frm{
-    height: 825px;
+    height: 830px;
     width: 70%;
     float: left;
 }
@@ -154,6 +152,7 @@ input[type="submit"]{
 .little-body{
     display: inline-block;
     height: 100%;
+    max-width: 100%;
     width: 100%;
     background-image: url("../img/batt.jpg");
     background-attachment: scroll;
@@ -180,7 +179,7 @@ input[type="submit"]{
     float: left;
 }
 .b1 img{
-    width: 660px;
+    max-width: 100%;
     height: 490px;
 }
 .b2{
@@ -189,8 +188,8 @@ input[type="submit"]{
     float: left;
 }
 .b2 img{
-    width: 330px;
-    height: 335px;
+    max-width: 100%;
+    height: 340px;
     float: left;
 }
 .b3{
@@ -199,55 +198,59 @@ input[type="submit"]{
     float: right;
 }
 .b3 img{
-    width: 330px;
-    height: 335px;
+    max-width: 131%;
+    height: 340px;
 }
 .b4{
     height: 245px;
     width: 505px;
 }
 .b4 img{
-    height: 245px;
-    width: 505px;
+    height: 284px;
+    max-width: 100%;
 }
 .b5{
-    height: 580px;
+    height: 586px;
     width: 505px;
 }
 .b5 img{
-    height: 580px;
+    height: 585px;
     width: 505px;
 }
-.bot{
-    border: 1px solid black;
-    width: 950px;
-    height: 150px;
-    margin: 5px auto;
-    text-align: center;
-}
-.bot img{
-    width: 950px;
-    height: 150px;
-}
 .mid{
+    max-width: 100%;
+    height: 100%;
     background-image: url("../img/batt.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat ;
+}
+.bot{
+    width: 850px;
+    height: 150px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
     cursor: pointer;
+}
+.bot img{
+    width: 850px;
+    height: 150px;
 }
 .ul{
     border-top: 1px solid #D3D3D3;
     background-color: white;
-    width: 1165px;
-    height: 334px;
+    width: 1137px;
+    height: 500px;
     padding-top: 30px;
     padding-right: 15px;
     padding-bottom: 30px;
     padding-left: 15px;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-right: 249px;
     margin-bottom: 15px;
     margin-left: 249px;
+    vertical-align: middle;
 }
 .ul p{
     font-weight: bold;
@@ -259,7 +262,141 @@ input[type="submit"]{
     margin-bottom: 15px;
     margin-left: 15px;
 }
-
-
-
+.li_1{
+    width: 275px;
+    height: 71px;
+    margin-right: 5px;
+    float: left;
+}
+.li_1:hover{
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.li_2{
+    width: 275px;
+    height: 71px;
+    margin-right: 0px;
+    float: left;
+}
+.li_2:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.li_3{
+    width: 275px;
+    height: 71px;
+    margin-right: 5px;
+    float: left;
+}
+.li_3:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.li_4{
+    width: 275px;
+    height: 71px;
+    margin-right: 5px;
+    float: left;
+}
+.li_4:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.li_5{
+    width: 275px;
+    height: 71px;
+    margin-right: 5px;
+    float: left;
+}
+.li_5:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.li_6{
+    width: 275px;
+    height: 71px;
+    margin-right: 0px;
+    float: left;
+}
+.li_6:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.li_7{
+    width: 275px;
+    height: 71px;
+    margin-right: 5px;
+    float: left;
+}
+.li_7:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.li_8{
+    width: 275px;
+    height: 71px;
+    margin-right: 5px;
+    float: left;
+}
+.li_8:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.li_9{
+    width: 275px;
+    height: 71px;
+    margin-right: 5px;
+    float: left;
+}
+.li_9:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.li_10{
+    width: 275px;
+    height: 71px;
+    margin-right: 5px;
+    float: left;
+}
+.li_10:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.li_11{
+    width: 275px;
+    height: 71px;
+    margin-right: 5px;
+    float: left;
+}
+.li_11:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.li_12{
+    width: 275px;
+    height: 71px;
+    margin-right: 5px;
+    float: left;
+}
+.li_12:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.show{
+    text-align: center;
+}
+.show a{
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+    text-decoration: none;
+    margin: 20px 0px;
+    letter-spacing: 0px;
+}
+.show a:hover{
+    border: none;
+}
 
