@@ -154,7 +154,7 @@ input[type="submit"]{
     height: 100%;
     max-width: 100%;
     width: 100%;
-    background-image: url("../img/batt.jpg");
+    background-image: url("../img/bb_1.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat ;
     cursor: pointer;
@@ -220,7 +220,7 @@ input[type="submit"]{
 .mid{
     max-width: 100%;
     height: 100%;
-    background-image: url("../img/batt.jpg");
+    background-image: url("../img/bb_1.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat ;
 }
@@ -248,7 +248,7 @@ input[type="submit"]{
     padding-left: 15px;
     margin-top: 0px;
     margin-right: 249px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     margin-left: 249px;
     vertical-align: middle;
 }
@@ -398,5 +398,25 @@ input[type="submit"]{
 }
 .show a:hover{
     border: none;
+}
+.continue{
+    max-width: 100%;
+    height: 350px;
+    background-color: #696969;
+}
+.pictures{                              /*Дописать к ссылкам код!*/
+    vertical-align: middle;
+    width: 100%;
+    height: 245px;
+    font-size: 100%;
+}
+.archive{
+    width: 277px;
+    height: 245px;
+    float: left;
+}
+.archive img{
+    max-width: 100%;
+    height: 245px;
 }
 
