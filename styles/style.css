@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    max-width:100%;
     font-family: 'PT Sans', sans-serif; /* Шрифт*/
     font-size: 16px;
     }
@@ -89,44 +90,10 @@ input[type="submit"]{
 .right .button a{
     vertical-align: middle;
 }
-.cont-left{
-    width: 15%;
-    height: 830px;
-    float: left;
-}
-.cont-left img{
-    border: 1px solid #00FA9A;
-    width: 150px;
-    height: 200px;
-    margin: 5px auto;
-    cursor: pointer;
-    display: block;
-}
-.cont-right{
-    width: 15%;
-    height: 830px;
-    float: right;
-}
-.cont-right img{
-    border: 1px solid #00FA9A;
-    width: 150px;
-    height: 200px;
-    margin: 5px auto;
-    cursor: pointer;
-    display: block;
-}
-.cont-left img:hover{
-    width: 160px;
-    height: 210px;
-}
-.cont-right img:hover{
-    width: 160px;
-    height: 210px;
-}
 .frm{
+    margin: 0px auto;
     height: 830px;
     width: 70%;
-    float: left;
 }
 .content-form{
     width: 100%;
@@ -401,6 +368,7 @@ input[type="submit"]{
 }
 .continue{
     max-width: 100%;
+    min-width: 400px;
     height: 320px;
     background-color: #696969;
 }
@@ -470,8 +438,56 @@ input[type="submit"]{
 .ul_2{
     width: 1167px;
     max-height: 100%;
+    height: 800px;
     margin-left: 249px;
     margin-right: 249px;
     background-color: #fff;
 }
+.left_column{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.right_column{
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+.show_1{
+    width: 300px;
+    height: 222px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 35px;
+    float: left;
+}
+.show_2{
+    width: 300px;
+    height: 222px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 35px;
+    float: left;
+}
+.show_3{
+    width: 300px;
+    height: 222px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 35px;
+    float: left;
+}
+.show_4{
+    width: 300px;
+    height: 222px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 35px;
+    float: left;
+}
+
 
