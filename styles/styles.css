@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+h1{
+    color:      #8B4513;
+    margin-bottom: 10px;
+}
 html body .content-outer{
     max-width: 100%;
 }
@@ -28,8 +32,9 @@ aside{
 }
 
 .header{
+    position: relative;
     max-width: 100%;
-    height: 125px;
+    height: 100px;
     border-bottom: 35px solid rgb(45, 45, 45);
     box-shadow: 0 10px 8px -10px rgba(0,0,0,.8);
     background: #e7d5c0;
@@ -40,18 +45,22 @@ aside{
 }
 
 .header_section{
-    width: 72.15874924834636%;
-    height: 90px;
+    max-width: 70.158749%;
+    height: 100px;
     margin: 0 auto;
     color: rgb(34, 34, 34);
     font: 100%/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .section_left{
+    position: relative;
+    width: 12.67857142857143%;
+    float: left;
     display: table;
-    height: 125px;
+    height: 100px;
     color: rgb(34, 34, 34);
     font: 100%/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-right: 20px;
 }
 
 .section_left a{
@@ -68,10 +77,28 @@ aside{
     white-space: pre;
 }
 
+.show{
+    position: absolute;
+    top: 0;
+    right: 230px;
+    overflow: hidden;
+    border: 1px solid black;
+    float: left;
+    max-width: 950px;
+    color: rgb(34, 34, 34);
+    font: 100%/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 99px;
+}
+.show img{
+    height: 99px;
+    max-width: 100%;
+    cursor: pointer;
+}
+
 .main{
     height: 100%;
     position: relative;
-    max-width: 1200px;
+    max-width: 51.158749%;
     margin: 0 auto;
     padding: 1.2em 310px 0 0;
     word-wrap: break-word;
@@ -80,7 +107,7 @@ aside{
     font: 100%/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .main_saction{
-    max-width: 74.16666666666667%;
+    max-width: 88.57142857142857%;
     float: left;
     line-height: 1.6em;
     display: block;
@@ -88,43 +115,40 @@ aside{
     color: rgb(34, 34, 34);
     font: 100%/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 .aside{
-    max-width: 25%;
-    float: right;
-    margin-right: -10px;
-    line-height: 1.6em;
-    position: relative;
-    margin: 0 auto;
-    padding-right: 310px;
-    color: rgba(261, 243, 223, .4);
-    font: 100%/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-aside{
-    width: 300px;
-    position: absolute;
-    top: 0;
+    max-width: 27.8989880952381%;
+    position:  absolute;
+    top:   0;
     right: 0;
     height: 100%;
 }
+.aside:hover{
+    background-color: #FA8072;
+    cursor: pointer;
+}
+
 nav{
-    height: 50px;
+    height:   50px;
     position: absolute;
     top: -50px;
     color: rgb(34, 34, 34);
-    font: 100%/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font:  100%/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 .ul{
     display: table;
     height: 35px;
     line-height: 35px;
     color: #fff;
     list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+    -webkit-margin-before:  1em;
+    -webkit-margin-after:   1em;
+    -webkit-margin-start:   0px;
+    -webkit-margin-end:     0px;
     -webkit-padding-start: 40px;
 }
+
 .li{
     display: table-cell;
     text-align: center;
@@ -134,6 +158,7 @@ nav{
     color: #fff;
     font: 100%/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 .li a{
     color: rgb(187, 187, 187);
     text-decoration: none;
@@ -142,11 +167,14 @@ nav{
     line-height: 35px;
     font: 100%/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.sidebar{
+.sidebar_section{
+    width: 300px;
+    height: 36px;
     display: block;
+    color: rgb(34, 34, 34);
     font: 100%/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.sidebar a{
+.link{
     position: absolute;
     right: .6em;
     top: -28px;
@@ -156,23 +184,41 @@ nav{
     background: #e36443;
     line-height: 12px;
     text-indent: 2px;
-    cursor: pointer;
     display: inline-block;
     text-decoration: none;
     border-radius: 3px;
     color: #fff;
+    cursor: pointer;
 }
-.show{
-    width: 968px;
-    position: absolute;
-    right: 0;
-    top: -160px;
-    display: block;
-    color: rgb(34, 34, 34);
-    font: 100%/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
-    height: 90px;
-}
-.show img{
-    height: 125px;
-    width: 968px;
+
+
+@media screen and (max-width: 580px){
+    .show{
+        display: none;
+    }
+    .aside{
+        display: none;
+    }
+    .main{
+        padding:0px;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .main_saction{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .blog{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .section_left{
+        width: 100%;
+    }
+    h1{
+        color: blue;
+        text-align: center;
+    }
 }

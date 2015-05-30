@@ -1,8 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="../styles/styles.css" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../styles/styles.css"     />
+<link rel="stylesheet" type="media/screen" href="../styles/styles.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"     />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>practic</title>
 </head>
@@ -10,14 +11,19 @@
     <div class="header">
         <div class="header_section">
             <div class="section_left">
-                <a href="*">Шпаргалка блоггера</a>
+                <a href="*">Шпаргалка <br>блоггера</br></a>
+            </div>
+        <div class="show">
+            <img src="../img/show.jpg" />
             </div>
         </div>
     </div>
 
     <div class="main">
         <div class="main_section">
-            <div class="blog">Большой разброс разрешения экранов пользователей от 3840x1080 до мобильных 228x240 говорит о необходимости применения резиновых сайтов, которые успешно выглядят на любом устройстве. Сократите ширину окна браузера данного блога Сократить ширину окна браузера и вы увидите как страница видоизменяется. резиновый сайт Шаблоны с фиксированной шириной имеют либо куцый вид, либо не помещаются в окне браузера. Пример.
+            <div class="blog">
+                <h1>Резиновый сайт</h1>
+                Большой разброс разрешения экранов пользователей от 3840x1080 до мобильных 228x240 говорит о необходимости применения резиновых сайтов, которые успешно выглядят на любом устройстве. Сократите ширину окна браузера данного блога Сократить ширину окна браузера и вы увидите как страница видоизменяется. резиновый сайт Шаблоны с фиксированной шириной имеют либо куцый вид, либо не помещаются в окне браузера. Пример.
 
                 Рекомендации для тех, кто решил сделать сайт с отзывчивой вёрсткой
 
@@ -28,7 +34,7 @@
                 Меняется расположение блоков для разных разрешений экрана монитора с помощью @ Media.
                 Макет резинового сайта
 
-                <style>
+                (style)
                     main { /* основное содержимое */
                         position: relative; /* боковая колонка перемещается в рамках основного содержания */
                         margin: 0 auto; /* сайт располагается по центру экрана */
@@ -39,27 +45,27 @@
                         width: 300px; /* фиксированная, не меняется с изменением размера окна браузера */
                         position: absolute; top: 0; right: 0; /* прижата к верхнему правому углу */
                     }
-                </style>
+                    (/style)
 
-                <main>
-                    <aside>боковая панель</aside>
-                </main>
+                (main)
+                    (aside)боковая панель(/aside)
+                (/main)
                 Пример: см. данный блог.
 
                 Боковой блок одной высотой с основным содержимым
 
-                <style>
+                (style)
                     aside {
                         height: 100%; /* добавить к коду выше */
                     }
-                </style>
+                    (style)
                 Пример: активизировать
 
                 Это не решает проблемы, когда боковая колонка более высокая, чем основное содержание. Лучше применить вёрстку со свойством display: table;.
 
                 Резиновая верстка сайта с плавающей боковой колонкой
 
-                <style>
+                (style)
                     main {
                         margin: 0px auto;
                         max-width: 1200px;
@@ -75,20 +81,11 @@
                         top: 9em; /* = шапке сайта */
                         z-index: 101;
                     }
-                </style>
 
-                <main>
-                    <div class="pravo"><aside>боковая панель</aside></div>
-                </main>
-                Пример (для чистоты эксперимента деактивизируйте предыдущую кнопку): активизировать
-
-                Смещение на 1px в Опере
-
-                <style>
                     .pravo {
                         -o-transform: translateX(-1px); /* при необходимости добавить к коду выше */
                     }
-                </style>
+                (/style)
                 Резиновый шаблон у блогов на платформе Blogger
 
                 Нужно добавить CSS для группы шаблонов "Простая", "Венецианское окно" и "Путешествие":
@@ -116,15 +113,17 @@
                     </div>
                 </nav>
 
-        <div class="show"><img src="../img/show.jpg" /></div>
-
         </div>
         <div class="aside">
-            <aside>Боковая панель</aside>
-            <div class="sidebar">
-                <a href="*">picture</a>   /*Вставить картинку*/
-            </div>
+
+            <a>Боковая панель</a>
+
+        <div class="sidebar_section">
+
+            <a class="link">a</a>
+
         </div>
+        <div>
     </div>
 </body>
 </html>
