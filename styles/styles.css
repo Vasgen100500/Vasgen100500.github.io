@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+.mine_body{
+
+    height: 900px;      /*Высота контейнера*/
+
+}
+
 h1{
     color:      #8B4513;
     margin-bottom: 10px;
@@ -191,8 +197,31 @@ nav{
     cursor: pointer;
 }
 
+.footer{
+    margin: 0 auto;
+    height: 30px;
+    display: block;
+    margin-top: 2em;
+    font-size: 10px;
+    background: rgb(45, 45, 45);
+    color: rgb(200, 200, 200);
+    vertical-align: middle;
+}
 
-@media screen and (max-width: 580px){
+.copyright{
+    line-height: 30px;
+    width: 1200px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+    font-size: 10px;
+    font: 100%/1.4em "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+@media screen and (max-width: 600px){
     .show{
         display: none;
     }
