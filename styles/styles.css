@@ -5,7 +5,7 @@
 
 .mine_body{
 
-    height: 900px;      /*Высота контейнера*/
+    height: 100%;      /*Высота контейнера*/
 
 }
 
@@ -99,6 +99,20 @@ aside{
     height: 99px;
     max-width: 100%;
     cursor: pointer;
+}
+
+.blog{
+    text-align: justify;
+}
+
+.blog img{
+    max-width: 550px;
+    height: 349px;
+    padding-bottom: 25px;
+}
+
+.image_screen{
+    text-align: center;
 }
 
 .main{
@@ -237,6 +251,18 @@ nav{
         width: 100%;
         text-align: center;
         margin: 0 auto;
+    }
+    .blog{
+        text-align: justify;
+    }
+
+    .blog img{
+        max-width: 550px;
+        height: 349px;
+        padding-bottom: 25px;
+    }
+    .image_screen{
+        text-align: center;
     }
     .blog{
         width: 100%;
