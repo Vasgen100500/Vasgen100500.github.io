@@ -8,131 +8,36 @@
 <title>practic</title>
 </head>
 <body>
-<div class="mine_body">
-    <div class="header">
-        <div class="header_section">
-            <div class="section_left">
-                <a href="*">Шпаргалка <br>блоггера</br></a>
-            </div>
-        <div class="show">
-            <img src="../img/show.jpg" />
-            </div>
-        </div>
+<div class="content-main">
+    <div class="content">
+    <h1>Lorem ipsum dolor tratata</h1>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
     </div>
 
-    <div class="main">
-        <div class="main_section">
-            <div class="blog">
-                <h1>Резиновый сайт</h1>
-                <div class="image_screen">
-                    <img src="../img/screen.jpg" />
-                </div>
-                Большой разброс разрешения экранов пользователей от 3840x1080 до мобильных 228x240 говорит о необходимости применения резиновых сайтов, которые успешно выглядят на любом устройстве. Сократите ширину окна браузера данного блога Сократить ширину окна браузера и вы увидите как страница видоизменяется. резиновый сайт Шаблоны с фиксированной шириной имеют либо куцый вид, либо не помещаются в окне браузера. Пример.
-
-                Рекомендации для тех, кто решил сделать сайт с отзывчивой вёрсткой
-
-                Шрифты, отступы указываются в em или vmin.
-                Картинки, видео также адаптируются под размер экрана.
-                Определяется минимальная и максимальная ширина сайта чтобы композиция не расползалась, чтобы посетители широкоформатного монитора не говорили о необходимости взять такси для использования функций противоположной стороны веб-ресурса.
-                Указывается максимальная длина строки (не более 45—50 символов для текста, набранного 12-пунктовым кеглем). Не зря у Google и Яндекса 16px заголовок не превышает 70 знаков.
-                Меняется расположение блоков для разных разрешений экрана монитора с помощью @ Media.
-                Макет резинового сайта
-
-                (style)
-                    main { /* основное содержимое */
-                        position: relative; /* боковая колонка перемещается в рамках основного содержания */
-                        margin: 0 auto; /* сайт располагается по центру экрана */
-                        max-width: 1200px; /* резиновая, растягивается до значения в 1200px */
-                        padding-right: 310px; /* = боковая колонка + отступ в 10px */
-                    }
-                    aside { /* боковая колонка */
-                        width: 300px; /* фиксированная, не меняется с изменением размера окна браузера */
-                        position: absolute; top: 0; right: 0; /* прижата к верхнему правому углу */
-                    }
-                    (/style)
-
-                (main)
-                    (aside)боковая панель(/aside)
-                (/main)
-                Пример: см. данный блог.
-
-                Боковой блок одной высотой с основным содержимым
-
-                (style)
-                    aside {
-                        height: 100%; /* добавить к коду выше */
-                    }
-                    (style)
-                Пример: активизировать
-
-                Это не решает проблемы, когда боковая колонка более высокая, чем основное содержание. Лучше применить вёрстку со свойством display: table;.
-
-                Резиновая верстка сайта с плавающей боковой колонкой
-
-                (style)
-                    main {
-                        margin: 0px auto;
-                        max-width: 1200px;
-                        padding-right: 310px;
-                    }
-                    .pravo { /* боковая колонка прижата к правому углу */
-                        float: right;
-                        margin-right: -10px;
-                    }
-                    aside {
-                        width: 300px;
-                        position: fixed; /* перемещается вместе с прокруткой страницы */
-                        top: 9em; /* = шапке сайта */
-                        z-index: 101;
-                    }
-
-                    .pravo {
-                        -o-transform: translateX(-1px); /* при необходимости добавить к коду выше */
-                    }
-                (/style)
-                Резиновый шаблон у блогов на платформе Blogger
-
-                Нужно добавить CSS для группы шаблонов "Простая", "Венецианское окно" и "Путешествие":
-
-                body {
-                padding-left: 10px;
-                padding-right: 10px;
-                }
-                html body .content-outer {
-                max-width: 100%;
-                }
-                Для "Корпорация "Чудеса"" и "Водяной знак":
-                html body .region-inner {
-                padding-left: 20px;
-                padding-right: 20px;
-                max-width: 100%;
-                }
-            </div>
-                <nav>
-                    <div class="ul">
-                        <div class="li"><a href="*"> Блог </a></div>
-                        <div class="li"><a href="*"> Blogger </a></div>
-                        <div class="li"><a href="*"> HTML/CSS </a></div>
-                        <div class="li"><a href="*"> Оптимизация </a></div>
-                    </div>
-                </nav>
-
-        </div>
-        <div class="aside">
-
-            <a>Боковая панель</a>
-
-        <div class="sidebar_section">
-
-            <a class="link">a</a>
-
+    <div class="sidebar">
+        <div class="sideblock">
+        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
         </div>
 
+    <div class="sideblock">
+        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
         </div>
-</div>
-<div class="footer">
-    <div class="copyright">
-        Все имена физических и юридических лиц, организаций являются вымышленными. Данный текст не имеет никакого отношения к действительности. Предназначен для лиц старше 100 лет <b>.@copy 2010-2015гг.</b>
     </div>
 </div>
 </body>
