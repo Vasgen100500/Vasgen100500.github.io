@@ -107,8 +107,8 @@ section {
   display: block;
 }
 body {
-  line-height: 1;
-    background-color: #faf9f7;
+    line-height: 1;
+    background-color: #f8f8f8;
 }
 ol,
 ul {
@@ -179,6 +179,86 @@ ul {
     line-height: 40px;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
+.body{
+    position: relative;
+    max-width: 1050px;
+    margin-top: 15px;
+    background-color: #fff;
+    height: 100%;
+}
+.commercial{
+    cursor: pointer;
+    float: left;
+    margin-top: 50px;
+}
+.commercial ul li{
+    list-style: none;
+    float: left;
+}
+.commercial ul li:nth-child(1){
+    background-color: #92ce0a;
+}
+.commercial ul li:nth-child(2){
+    background-color: #ffe202;
+}
+.commercial ul li:nth-child(3){
+    background-color: #0052da;
+}
+.commercial ul li a{
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 110px;
+    font-size: 26px;
+    display: block;
+    text-decoration: none;
+    bottom: 35px;
+}
+.commercial ul li a:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.donate{
+    float: left;
+}
+.body_but{
+    width: 275px;
+    background-color: #ff5241;
+    margin-left: 45px;
+    margin-top: 50px;
+    margin-bottom: 38px;
+}
+.body_but a{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    line-height: 68px;
+    font-size: 26px;
+}
+.body_but a:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.body_commercial{
+    margin-left: 45px;
+}
+.body_commercial h1{
+    font-size: 24px;
+    font-weight: normal;
+    color: #625f5f;
+    padding-bottom: 30px;
+}
+.body_commercial p{
+    color: #625f5f;
+    font-size: 16px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.body_commercial p:nth-child(2){
+    padding-bottom: 30px;
+}
+
 blockquote,
 q {
   quotes: none;
