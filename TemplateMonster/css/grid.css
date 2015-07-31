@@ -116,14 +116,17 @@ ul {
 }
 
 .container{
-    max-width: 1050px;
+    max-width: 100%;
 }
 .header{
+    max-width: 100%;
     position: relative;
     height: 102px;
 }
 .logo{
+    max-width: 21.425532%;
     margin-top: 25px;
+    margin-left: 25px;
     cursor: pointer;
     float: left;
     background-repeat: no-repeat;
@@ -139,14 +142,16 @@ ul {
     color: #8b8888;
 }
 .header_menu{
+    max-width: 76.80851063829787%;
     float: left;
     list-style: none;
 }
 .header_menu ul{
     margin-top: 25px;
-    margin-left: 95px;                                                  /* доделать с этого момента!!!!!*/
+    margin-left: 95px;
 }
 .header_menu ul li{
+    max-width: 22.806094%;
     line-height: 37px;
     float: left;
     text-decoration: none;
@@ -182,7 +187,7 @@ ul {
 .body{
     float: left;
     position: relative;
-    width: 1020px;
+    width: 1040px;
     margin-top: 15px;
     background-color: #fff;
     height: 100%;
@@ -198,7 +203,7 @@ ul {
     list-style: none;
     float: left;
 }
-.commercial ul li:nth-child(1){                                   /*Comment*/
+.commercial ul li:nth-child(1){
     background-color: #92ce0a;
 }
 .commercial ul li:nth-child(2){
@@ -263,9 +268,10 @@ ul {
     padding-bottom: 30px;
 }
 .container_section{
-    height: 250px;
+    height: 240px;
     margin-right: 15px;
     margin-left: 15px;
+    margin-bottom: 60px;
     background-color: #f8f8f8;
     float: left;
     width: 21%;
@@ -296,6 +302,82 @@ ul {
     margin-left: 88px;
     margin-right: 22px;
     margin-bottom: 19px;
+}
+.kids{
+    margin-left: 30px;
+    float: left;
+    width: 100%;
+}
+.kids h2{
+    font-weight: normal;
+    float: left;
+    font-size: 24px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    color: #0052da;
+}
+.arrows{
+    float: right;
+}
+.kids .arrows a{
+    float: left;
+    display: block;
+    background-color: #92ce0a;
+    height: 27px;
+    width: 31px;
+}
+.kids .arrows a:active{
+    background-color: #b8df60;
+}
+.kids .arrows a:nth-child(1){
+    margin-right: 2px;
+    float: left;
+}
+.kids .arrows a:nth-child(2){
+    background-color: #b8df60;
+    margin-right: 60px;
+}
+.kids .arrows a img{
+    margin: 7px 12px;
+    background-repeat: no-repeat;
+}
+.body_nav{
+    margin-top: 28px;
+    float: left;
+}
+.navigation_section{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 60px;
+    float: left;
+    width: 220px;
+    height: 265px;
+}
+.navigation_section img{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 190px;
+    height: 180px;
+}
+.navigation_section:nth-child(1){
+    background-color: #92ce0a;
+}
+.navigation_section:nth-child(2){
+    background-color: #ffe202;
+}
+.navigation_section:nth-child(3){
+    background-color: #0052da;
+}
+.navigation_section:nth-child(4){
+    background-color: #ff7f00;
+}
+.navigation_section a{
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
 }
 blockquote,
 q {
