@@ -185,6 +185,7 @@ ul {
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 .body{
+    border-bottom: 1px solid #d8d5d5;
     float: left;
     position: relative;
     width: 1040px;
@@ -378,6 +379,128 @@ ul {
     font-size: 24px;
     color: #fff;
     text-decoration: none;
+}
+.cont_nav{
+    float: left;
+    margin-left: 45px;
+    margin-bottom: 65px;
+}
+.cont_nav h2{
+    text-transform: uppercase;
+    color: #0052da;
+    font-size: 29px;
+    padding-bottom: 10px;
+}
+.container_section_left strong{
+    color: #7d7b7b;
+    font-size: 18px;
+}
+.container_section_left{
+    max-width: 39.01960784313725%;
+    float: left;
+    margin-right: 70px;
+    height: 220px;
+}
+.container_section_left p{
+    overflow: hidden;
+    padding-bottom: 21px;
+    padding-right: 80px;
+    color: #4c4c4c;
+}
+.container_section_left a {
+    width: 109px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #97cc1e;
+    color: #fff;
+    line-height: 31px;
+    text-align: center;
+    margin-left: 192px;
+}
+.container_section_right{
+    float: left;
+    max-width: 52.019608%;
+    height: 220px;
+}
+.container_section_right img{
+    float: left;
+}
+.container_section_right p{
+    padding-left: 20px;
+    padding-bottom: 21px;
+    overflow: hidden;
+    color: #4c4c4c;
+}
+.container_section_right a{
+    text-decoration: none;
+    color: #0052da;
+}
+.linked a{
+    width: 109px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #97cc1e;
+    color: #fff;
+    line-height: 31px;
+    text-align: center;
+    margin-left: 400px;
+}
+.footer{
+    width: 995px;
+    display: inline-block;
+    padding-left: 45px;
+    padding-top: 48px;
+    background-color: #ffffff;
+}
+.footer_copyrights,
+.footer_navigation{
+    float: left;
+}
+.footer_copyrights h2{
+    color: #0052da;
+    padding-bottom: 11px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.footer_copyrights p{
+    font-size: 14px;
+    color: #625f5f;
+    padding-bottom: 41px;
+}
+.footer_navigation{
+    margin-left: 500px;
+}
+.footer_navigation a{
+    width: 60px;
+    margin-right: 6px;
+    line-height: 60px;
+    float: left;
+    display: block;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+.footer_navigation a:nth-child(1){
+    background-color: #92ce0a;
+}
+.footer_navigation a:nth-child(2){
+    background-color: #ffe202;
+}
+.footer_navigation a:nth-child(3){
+    background-color: #0052da;
+}
+.footer_navigation img{
+    margin-top: 14px;
+}
+.footer_navigation img:nth-child(2){
+    margin-top: 14px;
+    margin-left: 16px;
 }
 blockquote,
 q {
